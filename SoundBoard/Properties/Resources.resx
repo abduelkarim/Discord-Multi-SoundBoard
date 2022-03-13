@@ -1,0 +1,316 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Rename" xml:space="preserve">
+    <value>Rename</value>
+  </data>
+  <data name="Remove" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="WelcomeToSoundBoard" xml:space="preserve">
+    <value>Welcome to Sound Board!</value>
+  </data>
+  <data name="SoundBoardDescription" xml:space="preserve">
+    <value>...an app where you can create and run your own custom sound board full of your favorite bytes, effects, and clips.</value>
+  </data>
+  <data name="HowDoesItWork" xml:space="preserve">
+    <value>How does it work?</value>
+  </data>
+  <data name="SoundBoardExplanation1" xml:space="preserve">
+    <value>Sound Board is split into pages, so you can group your favorite sounds together. To get started, add your first sound page by clicking "add page" above!</value>
+  </data>
+  <data name="SoundBoardExplanation2" xml:space="preserve">
+    <value>To load a sound, just drag an audio file onto a button or click the three little dots to browse. Then click the button with the sound name on it to play it!</value>
+  </data>
+  <data name="SoundBoardExplanation3" xml:space="preserve">
+    <value>To find a sound in a hurry, just start typing its name and an instant search bar will appear!</value>
+  </data>
+  <data name="SoundBoardExplanation4" xml:space="preserve">
+    <value>Pages and sounds are saved, so when you're done, just close the app, and it'll pick up right where you left off next time!</value>
+  </data>
+  <data name="SoundBoardExplanation5" xml:space="preserve">
+    <value>Add, remove pages, or rename pages at any time by clicking buttons at the top. Feel free to remove this page when you're ready to go! Bring it back any time by clicking "help".</value>
+  </data>
+  <data name="Welcome" xml:space="preserve">
+    <value>Welcome</value>
+  </data>
+  <data name="AboutSoundBoard" xml:space="preserve">
+    <value>About Sound Board</value>
+  </data>
+  <data name="CreatedByMicahMorrison" xml:space="preserve">
+    <value>Created by Micah Morrison</value>
+  </data>
+  <data name="VersionNumber" xml:space="preserve">
+    <value>Version {0}</value>
+    <comment>{0} is a version number</comment>
+  </data>
+  <data name="NewPage" xml:space="preserve">
+    <value>New Page</value>
+  </data>
+  <data name="WhatDoYouWantToCallIt" xml:space="preserve">
+    <value>What do you want to call it?</value>
+  </data>
+  <data name="ConfirmDeletePage" xml:space="preserve">
+    <value>Are you sure you want to delete this page?</value>
+  </data>
+  <data name="ChooseSound" xml:space="preserve">
+    <value>Choose sound</value>
+  </data>
+  <data name="UhOh" xml:space="preserve">
+    <value>Uh oh!</value>
+  </data>
+  <data name="FileDoesNotExist" xml:space="preserve">
+    <value>File '{0}' doesn't seem to exist.</value>
+    <comment>{0} is the name of a file</comment>
+  </data>
+  <data name="ThereWasAProblem" xml:space="preserve">
+    <value>There was a problem!</value>
+  </data>
+  <data name="AudioVideoFiles" xml:space="preserve">
+    <value>Audio and Video Files</value>
+  </data>
+  <data name="DragASoundHere" xml:space="preserve">
+    <value>Drag a sound here...</value>
+  </data>
+  <data name="ImportConfiguration" xml:space="preserve">
+    <value>Import configuration</value>
+  </data>
+  <data name="ExportConfiguration" xml:space="preserve">
+    <value>Export configuration</value>
+  </data>
+  <data name="ConfigurationFiles" xml:space="preserve">
+    <value>Configuration Files</value>
+  </data>
+  <data name="ClearConfiguration" xml:space="preserve">
+    <value>Clear configuration</value>
+  </data>
+  <data name="Clear" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="GoToSound" xml:space="preserve">
+    <value>Go to sound</value>
+  </data>
+  <data name="Source" xml:space="preserve">
+    <value>Source</value>
+  </data>
+  <data name="SoundWasCleared" xml:space="preserve">
+    <value>Sound '{0}' was cleared.</value>
+    <comment>{0} is the name of a sound</comment>
+  </data>
+  <data name="TabWasRemoved" xml:space="preserve">
+    <value>Page '{0}' was removed.</value>
+    <comment>{0} is the name of a tab</comment>
+  </data>
+  <data name="ConfigurationWasImported" xml:space="preserve">
+    <value>Configuration was imported.</value>
+  </data>
+  <data name="ConfigurationWasCleared" xml:space="preserve">
+    <value>Configuration was cleared.</value>
+  </data>
+  <data name="ClearAllSounds" xml:space="preserve">
+    <value>Clear all sounds</value>
+  </data>
+  <data name="AllSoundsClearedFromTab" xml:space="preserve">
+    <value>All sounds cleared from '{0}'.</value>
+    <comment>{0} is the name of a tab page</comment>
+  </data>
+  <data name="SetColor" xml:space="preserve">
+    <value>Set color</value>
+  </data>
+  <data name="AdjustVolume" xml:space="preserve">
+    <value>Adjust volume</value>
+  </data>
+  <data name="Loop" xml:space="preserve">
+    <value>Loop</value>
+  </data>
+  <data name="SoundSetToLoop" xml:space="preserve">
+    <value>This sound is set to loop</value>
+  </data>
+  <data name="VolumeOfSoundIsOffset" xml:space="preserve">
+    <value>The volume of this sound is offset by {0}</value>
+    <comment>{0} is an offset (like -2 or +1)</comment>
+  </data>
+  <data name="ButtonLayoutWasChanged" xml:space="preserve">
+    <value>Button layout was changed.</value>
+  </data>
+  <data name="ChangeButtonGrid" xml:space="preserve">
+    <value>Change button grid...</value>
+  </data>
+  <data name="TargetFrameworkNotInstalled" xml:space="preserve">
+    <value>The required .NET Framework Version ({0}) is not currently installed.</value>
+  </data>
+  <data name="NetFrameworkError" xml:space="preserve">
+    <value>.NET Framework Error</value>
+  </data>
+  <data name="CheckForUpdates" xml:space="preserve">
+    <value>Check for updates</value>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="OutputDevice" xml:space="preserve">
+    <value>Output device</value>
+  </data>
+  <data name="DefaultDevice" xml:space="preserve">
+    <value>Default (Current: {0})</value>
+    <comment>{0} is the name of the device</comment>
+  </data>
+  <data name="SingleSpecifier" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+	  <value>Close</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+	  <value>Error</value>
+  </data>
+  <data name="UnexpectedError" xml:space="preserve">
+	  <value>There was an unexpected error.</value>
+  </data>
+  <data name="CopyDetails" xml:space="preserve">
+	  <value>Copy details</value>
+  </data>
+  <data name="Warning" xml:space="preserve">
+	  <value>Warning</value>
+  </data>
+  <data name="LargeButtonCountWarning" xml:space="preserve">
+	  <value>A large button grid could cause the application to become slow or unresponsive. Are you sure you want to continue?</value>
+  </data>
+  <data name="NoAudioTrackWarning" xml:space="preserve">
+	  <value>Warning: The file '{0}' does not appear to have an audio track. It may not play correctly.</value>
+  </data>
+  <data name="FileNotFoundWarning" xml:space="preserve">
+	  <value>Warning: The file '{0}' could not be found.</value>
+  </data>
+  <data name="Browse" xml:space="preserve">
+	  <value>Browse</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+	  <value>Yes</value>
+  </data>
+  <data name="No" xml:space="preserve">
+	  <value>No</value>
+  </data>
+  <data name="FixLinksHeader" xml:space="preserve">
+	  <value>Fix broken links</value>
+  </data>
+  <data name="FixLinksMessage" xml:space="preserve">
+	  <value>{0} additional missing sounds were found in the selected directory. Relink them?</value>
+  </data>
+</root>
