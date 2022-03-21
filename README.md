@@ -7,7 +7,7 @@
 SoundBoard is a elegant, easy-to-use application to save and play your favorite sounds.
 
 Features include...
-* highly customizable (create your perfect soundboard with multiple pages and color-coded sounds)
+* highly customizable (create your perfect soundboard with multiple pages and color-coded so unds)
 * background saving/loading of sound configuration (so you don't lose your changes)
 * instant searching and playback of sounds from the keyboard (find the perfect sound at a moment's notice)
 * clean, modern UI
