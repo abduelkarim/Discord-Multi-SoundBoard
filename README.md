@@ -19,7 +19,7 @@ Grab the latest version [here](https://github.com/micahmo/SoundBoard/releases/la
 
 
 ## Screenshots
-
+ 
 ###### Create multiple pages with multiple sounds on each
 ![alt text](https://i.postimg.cc/rwnDXNfN/2019-09-02-15-30-42-Glow-Window.png "Overview1")
 
